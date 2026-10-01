@@ -1,0 +1,29 @@
+{
+  "schema": "mr-spicy-original-manifest/v1",
+  "captured_at_utc": "2026-10-01T07:48:11+00:00",
+  "original_host": {
+    "root_path": "8-ball-pool-i3rby-IPAOMTK.COM.ipa",
+    "mr_spicy_reference_path": "MR-SPICY/original/8-ball-pool-i3rby-IPAOMTK.COM.ipa",
+    "reference_type": "symlink/reference to repository-root original; not a renamed final artifact",
+    "size": 98576945,
+    "sha256": "59607b4177f8ffdf36649d9bb3b0c5900d39f5b6b3eaa0c6e351ba353a58c2f8",
+    "expected_sha256": "59607b4177f8ffdf36649d9bb3b0c5900d39f5b6b3eaa0c6e351ba353a58c2f8",
+    "sha256_verified": true,
+    "preserved": true,
+    "role": "ORIGINAL 8 BALL POOL HOST / BASE APPLICATION"
+  },
+  "original_logo": {
+    "root_path": "logo.png",
+    "mr_spicy_reference_path": "MR-SPICY/assets/logo.png",
+    "size": 1172471,
+    "sha256": "2056971c95da6f04ddf546c8409100604302c3deb5e47a7b29418ed220d44dc9",
+    "expected_sha256": "2056971c95da6f04ddf546c8409100604302c3deb5e47a7b29418ed220d44dc9",
+    "sha256_verified": true,
+    "preserved": true
+  },
+  "final_release": {
+    "intended_path": "MR-SPICY/output/Mr Spicy.ipa",
+    "produced": false,
+    "reason": "No actual MR. SPICY build/sign/export has been performed in this environment."
+  }
+}

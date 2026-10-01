@@ -1,0 +1,9 @@
+# Local Xcode/build outputs
+build/DerivedData/
+build/export/
+build/*.xcarchive/
+*.xcuserdata/
+DerivedData/
+
+# Keep output available for genuine release artifacts only.
+# Do not add a fake Mr Spicy.ipa.

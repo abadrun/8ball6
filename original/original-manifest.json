@@ -1,0 +1,9 @@
+{
+  "schema": "mr-spicy-root-original-reference/v1",
+  "artifact": "original/8-ball-pool-i3rby-IPAOMTK.COM.ipa",
+  "referenceType": "symlink to repository-root preserved original artifact",
+  "rootArtifact": "8-ball-pool-i3rby-IPAOMTK.COM.ipa",
+  "sha256": "59607b4177f8ffdf36649d9bb3b0c5900d39f5b6b3eaa0c6e351ba353a58c2f8",
+  "verified": true,
+  "notes": "The baseline IPA is not duplicated to avoid storing a second large binary artifact. The root IPA remains the preserved original host and this path is an untouched reference to it, not a final release."
+}

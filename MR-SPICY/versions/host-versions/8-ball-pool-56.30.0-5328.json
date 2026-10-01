@@ -1,0 +1,19 @@
+{
+  "schema": "mr-spicy-host-version/v1",
+  "host_artifact": "8-ball-pool-i3rby-IPAOMTK.COM.ipa",
+  "host_sha256": "59607b4177f8ffdf36649d9bb3b0c5900d39f5b6b3eaa0c6e351ba353a58c2f8",
+  "host_sha256_verified": true,
+  "bundle_identifier": "com.miniclip.8ballpoolmult",
+  "host_version": "56.30.0",
+  "host_build": "5328",
+  "minimum_ios": "13.0",
+  "device_family": [
+    1,
+    2
+  ],
+  "app_dir": "Payload/pool.app/",
+  "executable": "pool",
+  "framework_count": 26,
+  "extension_count": 4,
+  "binary_count": 31
+}
