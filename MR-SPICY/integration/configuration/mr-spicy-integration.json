@@ -1,0 +1,31 @@
+{
+  "schema": "mr-spicy-integration/v1",
+  "originalHost": {
+    "artifact": "8-ball-pool-i3rby-IPAOMTK.COM.ipa",
+    "role": "ORIGINAL 8 BALL POOL HOST / BASE APPLICATION",
+    "preserveUnmodified": true
+  },
+  "mrSpicyLayer": {
+    "version": "1.0.0",
+    "sourceRoot": "MR-SPICY/mr-spicy-ui",
+    "integrationMode": "source-level authorized host project integration",
+    "binaryPatchingAllowed": false
+  },
+  "finalRelease": {
+    "intendedArtifact": "MR-SPICY/output/Mr Spicy.ipa",
+    "createOnlyAfterActualBuild": true,
+    "renameOriginalForbidden": true
+  },
+  "forbiddenCapabilities": [
+    "competitive gameplay automation",
+    "aim assistance",
+    "server-state manipulation",
+    "anti-cheat evasion",
+    "license bypass",
+    "subscription bypass",
+    "payment bypass",
+    "ad bypass",
+    "DRM bypass",
+    "Apple signing bypass"
+  ]
+}

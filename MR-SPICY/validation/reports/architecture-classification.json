@@ -1,0 +1,198 @@
+{
+  "schema": "mr-spicy-architecture-classification/v1",
+  "captured_at_utc": "2026-10-01T07:48:11+00:00",
+  "components": [
+    {
+      "component": "Payload/pool.app/pool",
+      "classification": "ORIGINAL_APPLICATION",
+      "evidence": "CFBundleExecutable in Payload/pool.app/Info.plist; Mach-O executable inside original IPA.",
+      "confidence": "HIGH"
+    },
+    {
+      "component": "Payload/pool.app/Frameworks/AdSurgeSDK.framework",
+      "classification": "THIRD_PARTY",
+      "evidence": "Framework name and bundle metadata correspond to common third-party SDK/runtime dependency.",
+      "confidence": "HIGH"
+    },
+    {
+      "component": "Payload/pool.app/Frameworks/AppLovinSDK.framework",
+      "classification": "THIRD_PARTY",
+      "evidence": "Framework name and bundle metadata correspond to common third-party SDK/runtime dependency.",
+      "confidence": "HIGH"
+    },
+    {
+      "component": "Payload/pool.app/Frameworks/BigoADS.framework",
+      "classification": "THIRD_PARTY",
+      "evidence": "Framework name and bundle metadata correspond to common third-party SDK/runtime dependency.",
+      "confidence": "HIGH"
+    },
+    {
+      "component": "Payload/pool.app/Frameworks/DTBiOSSDK.framework",
+      "classification": "THIRD_PARTY",
+      "evidence": "Framework name and bundle metadata correspond to common third-party SDK/runtime dependency.",
+      "confidence": "HIGH"
+    },
+    {
+      "component": "Payload/pool.app/Frameworks/FBAudienceNetwork.framework",
+      "classification": "THIRD_PARTY",
+      "evidence": "Framework name and bundle metadata correspond to common third-party SDK/runtime dependency.",
+      "confidence": "HIGH"
+    },
+    {
+      "component": "Payload/pool.app/Frameworks/FBLPromises.framework",
+      "classification": "THIRD_PARTY",
+      "evidence": "Framework name and bundle metadata correspond to common third-party SDK/runtime dependency.",
+      "confidence": "HIGH"
+    },
+    {
+      "component": "Payload/pool.app/Frameworks/FirebaseAnalytics.framework",
+      "classification": "THIRD_PARTY",
+      "evidence": "Framework name and bundle metadata correspond to common third-party SDK/runtime dependency.",
+      "confidence": "HIGH"
+    },
+    {
+      "component": "Payload/pool.app/Frameworks/FirebaseCore.framework",
+      "classification": "THIRD_PARTY",
+      "evidence": "Framework name and bundle metadata correspond to common third-party SDK/runtime dependency.",
+      "confidence": "HIGH"
+    },
+    {
+      "component": "Payload/pool.app/Frameworks/FirebaseCoreExtension.framework",
+      "classification": "THIRD_PARTY",
+      "evidence": "Framework name and bundle metadata correspond to common third-party SDK/runtime dependency.",
+      "confidence": "HIGH"
+    },
+    {
+      "component": "Payload/pool.app/Frameworks/FirebaseCoreInternal.framework",
+      "classification": "THIRD_PARTY",
+      "evidence": "Framework name and bundle metadata correspond to common third-party SDK/runtime dependency.",
+      "confidence": "HIGH"
+    },
+    {
+      "component": "Payload/pool.app/Frameworks/FirebaseCrashlytics.framework",
+      "classification": "THIRD_PARTY",
+      "evidence": "Framework name and bundle metadata correspond to common third-party SDK/runtime dependency.",
+      "confidence": "HIGH"
+    },
+    {
+      "component": "Payload/pool.app/Frameworks/FirebaseInstallations.framework",
+      "classification": "THIRD_PARTY",
+      "evidence": "Framework name and bundle metadata correspond to common third-party SDK/runtime dependency.",
+      "confidence": "HIGH"
+    },
+    {
+      "component": "Payload/pool.app/Frameworks/FirebaseRemoteConfigInterop.framework",
+      "classification": "THIRD_PARTY",
+      "evidence": "Framework name and bundle metadata correspond to common third-party SDK/runtime dependency.",
+      "confidence": "HIGH"
+    },
+    {
+      "component": "Payload/pool.app/Frameworks/FirebaseSessions.framework",
+      "classification": "THIRD_PARTY",
+      "evidence": "Framework name and bundle metadata correspond to common third-party SDK/runtime dependency.",
+      "confidence": "HIGH"
+    },
+    {
+      "component": "Payload/pool.app/Frameworks/GoogleAdsOnDeviceConversion.framework",
+      "classification": "THIRD_PARTY",
+      "evidence": "Framework name and bundle metadata correspond to common third-party SDK/runtime dependency.",
+      "confidence": "HIGH"
+    },
+    {
+      "component": "Payload/pool.app/Frameworks/GoogleAppMeasurement.framework",
+      "classification": "THIRD_PARTY",
+      "evidence": "Framework name and bundle metadata correspond to common third-party SDK/runtime dependency.",
+      "confidence": "HIGH"
+    },
+    {
+      "component": "Payload/pool.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework",
+      "classification": "THIRD_PARTY",
+      "evidence": "Framework name and bundle metadata correspond to common third-party SDK/runtime dependency.",
+      "confidence": "HIGH"
+    },
+    {
+      "component": "Payload/pool.app/Frameworks/GoogleDataTransport.framework",
+      "classification": "THIRD_PARTY",
+      "evidence": "Framework name and bundle metadata correspond to common third-party SDK/runtime dependency.",
+      "confidence": "HIGH"
+    },
+    {
+      "component": "Payload/pool.app/Frameworks/GoogleUtilities.framework",
+      "classification": "THIRD_PARTY",
+      "evidence": "Framework name and bundle metadata correspond to common third-party SDK/runtime dependency.",
+      "confidence": "HIGH"
+    },
+    {
+      "component": "Payload/pool.app/Frameworks/InMobiSDK.framework",
+      "classification": "THIRD_PARTY",
+      "evidence": "Framework name and bundle metadata correspond to common third-party SDK/runtime dependency.",
+      "confidence": "HIGH"
+    },
+    {
+      "component": "Payload/pool.app/Frameworks/MolocoSDK.framework",
+      "classification": "THIRD_PARTY",
+      "evidence": "Embedded framework dependency from original host; no MR. SPICY source ownership.",
+      "confidence": "MEDIUM"
+    },
+    {
+      "component": "Payload/pool.app/Frameworks/OMSDK_Appodeal.framework",
+      "classification": "THIRD_PARTY",
+      "evidence": "Framework name and bundle metadata correspond to common third-party SDK/runtime dependency.",
+      "confidence": "HIGH"
+    },
+    {
+      "component": "Payload/pool.app/Frameworks/Promises.framework",
+      "classification": "THIRD_PARTY",
+      "evidence": "Framework name and bundle metadata correspond to common third-party SDK/runtime dependency.",
+      "confidence": "HIGH"
+    },
+    {
+      "component": "Payload/pool.app/Frameworks/libloader.framework",
+      "classification": "UNKNOWN",
+      "evidence": "Embedded compiled framework named libloader; no source found in repository; purpose not established by inspection alone.",
+      "confidence": "LOW"
+    },
+    {
+      "component": "Payload/pool.app/Frameworks/libswift_Concurrency.dylib",
+      "classification": "SHARED",
+      "evidence": "Swift runtime dylib embedded with app.",
+      "confidence": "HIGH"
+    },
+    {
+      "component": "Payload/pool.app/Frameworks/nanopb.framework",
+      "classification": "THIRD_PARTY",
+      "evidence": "Framework name and bundle metadata correspond to common third-party SDK/runtime dependency.",
+      "confidence": "HIGH"
+    },
+    {
+      "component": "Payload/pool.app/PlugIns/NotificationContent.appex",
+      "classification": "ORIGINAL_APPLICATION",
+      "evidence": "Nested app extension included in original host IPA with host bundle identifier prefix.",
+      "confidence": "HIGH"
+    },
+    {
+      "component": "Payload/pool.app/PlugIns/NotificationService.appex",
+      "classification": "ORIGINAL_APPLICATION",
+      "evidence": "Nested app extension included in original host IPA with host bundle identifier prefix.",
+      "confidence": "HIGH"
+    },
+    {
+      "component": "Payload/pool.app/PlugIns/PoolWidgetExtension.appex",
+      "classification": "ORIGINAL_APPLICATION",
+      "evidence": "Nested app extension included in original host IPA with host bundle identifier prefix.",
+      "confidence": "HIGH"
+    },
+    {
+      "component": "Payload/pool.app/PlugIns/PooliMessage.appex",
+      "classification": "ORIGINAL_APPLICATION",
+      "evidence": "Nested app extension included in original host IPA with host bundle identifier prefix.",
+      "confidence": "HIGH"
+    },
+    {
+      "component": "MR-SPICY/MrSpicyUI",
+      "classification": "MR_SPICY",
+      "evidence": "Source-controlled customization layer created separately from original IPA.",
+      "confidence": "HIGH"
+    }
+  ]
+}

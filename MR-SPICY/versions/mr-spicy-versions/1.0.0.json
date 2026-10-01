@@ -1,0 +1,11 @@
+{
+  "schema": "mr-spicy-version/v1",
+  "mr_spicy_version": "1.0.0",
+  "status": "source layer present; final IPA not produced yet",
+  "host_version": "56.30.0",
+  "host_build": "5328",
+  "build": "NOT AVAILABLE IN CURRENT ENVIRONMENT",
+  "signing": "NOT AVAILABLE IN CURRENT ENVIRONMENT",
+  "installation": "NOT PERFORMED",
+  "final_ipa": "NOT PRODUCED YET"
+}

@@ -1,0 +1,49 @@
+{
+  "schema": "mr-spicy-repository-inventory-baseline/v1",
+  "captured_before_changes": true,
+  "captured_at_utc": "2026-10-01T07:48:11+00:00",
+  "entries": [
+    {
+      "path": ".gitattributes",
+      "filename": ".gitattributes",
+      "type": "git attributes text",
+      "size": 66,
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "original_generated": "original",
+      "modified_unmodified": "unmodified baseline",
+      "role": "REPOSITORY_CONFIGURATION",
+      "dependency": "none",
+      "ownership": "Repository baseline",
+      "relevance": "Line-ending normalization",
+      "validation_status": "RECORDED BEFORE MR-SPICY GENERATION"
+    },
+    {
+      "path": "8-ball-pool-i3rby-IPAOMTK.COM.ipa",
+      "filename": "8-ball-pool-i3rby-IPAOMTK.COM.ipa",
+      "type": "ios ipa archive",
+      "size": 98576945,
+      "sha256": "59607b4177f8ffdf36649d9bb3b0c5900d39f5b6b3eaa0c6e351ba353a58c2f8",
+      "original_generated": "original",
+      "modified_unmodified": "unmodified baseline",
+      "role": "ORIGINAL_HOST_ARTIFACT",
+      "dependency": "project baseline",
+      "ownership": "Original host artifact",
+      "relevance": "Starting host application",
+      "validation_status": "SHA256 VERIFIED"
+    },
+    {
+      "path": "logo.png",
+      "filename": "logo.png",
+      "type": "png image",
+      "size": 1172471,
+      "sha256": "2056971c95da6f04ddf546c8409100604302c3deb5e47a7b29418ed220d44dc9",
+      "original_generated": "original",
+      "modified_unmodified": "unmodified baseline",
+      "role": "ORIGINAL_LOGO",
+      "dependency": "branding input",
+      "ownership": "Original logo artifact",
+      "relevance": "Branding source for MR. SPICY assets",
+      "validation_status": "SHA256 VERIFIED"
+    }
+  ]
+}
